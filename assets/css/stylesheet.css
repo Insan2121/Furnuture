@@ -1,0 +1,338 @@
+* {
+  box-sizing: border-box;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* -HEADER SECTION- */
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(../image/furnuture.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: whitesmoke;
+  background-color: black; opacity: 0.7;
+  border-radius: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #1ABF9B; opacity: 0.9;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.top-wrapper p:hover {
+  color: gold;
+  background-color: black;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+/* -MAIN SECTION- */
+
+.message-wrapper {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+.message-heading {
+  max-width: 600px;
+  margin: auto;
+}
+
+.message-wrapper h3 {
+  color: rgb(189, 189, 189);
+  font-weight: lighter;
+  margin: 70px 0 10px 0;
+}
+
+.message-wrapper h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.message-wrapper h5 {
+  color: rgb(189, 189, 189);
+  text-align: center;
+  margin-bottom: 20vh;
+}
+
+.message-wrapper h5:after {
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 50%; /* Change this to whatever width you want. */
+  padding-top: 20px; /* This creates some space between the element and the border. */
+  border-bottom: 1px solid rgb(189, 189, 189); /* This creates the border. Replace black with whatever color you want. */
+}
+
+.messages {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+.messages-icon {
+  width: 25%;
+  float: left;
+}
+
+.messages-icon img {
+  width: 20%;
+}
+
+.messages-icon p {
+  padding: 0 20px;
+  font-size: 13px;
+}
+
+/* -CONTACT SECTION- */
+
+.contact {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #f1faee;
+}
+
+.contact-container {
+  margin: 5% 25%;
+}
+
+.contact .contact-title {
+  text-align: center;
+  padding: 1rem 0;
+  color: #1ABF9B;
+}
+
+.contact .contact-title h2 {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+  font-weight: 700;
+  opacity: .9;
+}
+
+.contact .contact-title h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: .9;
+}
+
+label {
+  color: #2ca78c;
+  font-weight: 500;
+  display: inline-block;
+}
+
+input,
+textarea {
+  font-family: 'Montserrat';
+  width: 100%;
+  padding: .8rem;
+  border: 2px solid #70a288;
+  border-radius: 5px;
+  resize: vertical;
+  box-shadow: none;
+  color: #031d44;
+  background-color: #ffffffa9;
+}
+
+input:focus,
+textarea:focus {
+  outline-color: #1ABF9B;
+  transition: all ease .3s;
+  box-shadow: 0 7px #1ABF9B;
+  opacity: .7;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 1.5rem;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 1rem;
+}
+
+.form-btn {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #ffffff;
+  background: #1ABF9B;
+  width: 100%;
+  padding: .8rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 7px #70a288;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  transition: all .3s;
+  background-color: #2ca78c;
+}
+
+.form-btn:focus {
+  transition: all .5s;
+  box-shadow: none;
+}
+
+.row:after {
+  content: "";
+  display: flex;
+  flex-direction: column;
+  clear: both;
+}
+
+
+.langganan {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.langganan:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}

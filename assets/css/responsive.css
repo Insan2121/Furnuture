@@ -1,0 +1,113 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  /* HEADER SECTION */
+    .lesson {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+    
+    .heading h2 {
+      font-size: 20px;
+    }
+
+  /* MAIN SECTION */
+    .message-wrapper {
+      margin: auto;
+    }
+
+  /* CONTACT SECTION */
+    .contact-container {
+      margin: 0 20%;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+  /* HEADER SECTION */
+    .lesson {
+      width: 100%;
+    }
+    
+    footer {
+      text-align: center;
+    }
+    
+    .btn {
+      width: 100%;
+    }
+    
+    .facebook {
+      margin-bottom: 10px;
+    }
+    
+    .top-wrapper {
+      text-align: left;
+    }
+    
+    /* Tambahkan CSS untuk header-right */
+    .header-right {
+      display: none;
+    }
+    
+    /* Tambahkan CSS untuk menu-icon */
+    .menu-icon {
+      display: block;
+    }
+    
+    .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+      text-align: center;
+    }
+    
+    .top-wrapper p {
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      color: black;
+      background-color: thistle;
+    }
+
+  /* MAIN SECTION */
+    .message-wrapper h5 {
+      margin-bottom: 8vh;
+    }
+
+    .message-heading {
+      padding: 0 5vh;
+    }
+  
+    .messages {
+      width: 100%;
+      float: left;
+      margin-bottom: 10px;
+    }
+
+    .messages-icon {
+      width: 50%;
+      padding-bottom: 50px;
+    }
+
+  /* CONTACT SECTION */
+    .contact-container {
+      margin: 0 10%;
+    }
+
+    .contact .contact-title h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact .contact-title h5 {
+        font-size: 1.5rem;
+    }
+
+    .col-25,
+    .col-75 {
+        width: 100%;
+        margin-top: .8rem;
+    }
+  }
