@@ -150,6 +150,7 @@ header {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
+  display: inline-block;
 }
 
 .message-heading {
@@ -355,6 +356,7 @@ footer {
 }
 
 .product-title {
+  
   text-align: center;
   color: black;
   font-weight: lighter;

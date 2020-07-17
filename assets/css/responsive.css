@@ -23,6 +23,8 @@
     .contact-container {
       margin: 0 20%;
     }
+
+    /* Product Section */
   }
   
   /* Untuk Smartphone */
@@ -110,4 +112,75 @@
         width: 100%;
         margin-top: .8rem;
     }
+
+    /* Product Section */
+  
+
+    .product-item {
+      padding: 10%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    
+    .product-title {
+      
+      text-align: center;
+      color: black;
+      font-weight: lighter;
+      font-size: large;
+      margin: 70px 0 10px 0;
+    }
+    
+    .product-one {
+      width: 100%;
+      display: inline-block;
+      margin-top: 40px;
+    
+      margin-bottom: 50px;
+    }
+    .product-one img {
+      height: 250px;
+      width: 250px;
+      
+      
+    }
+    
+    .product-one h2 {
+      font-size: 15px;
+      text-align: center;
+      display: inline-block;
+    }
+    
+    .product-one p {
+      font-size: 12px;
+      text-align: justify;
+      
+    }
+    
+    .product-two{
+      width: 100%;
+      display: inline-block;
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+    .product-two img {
+      height: 250px;
+      width: 250px;
+
+    }
+    
+    
+    .product-two h2 {
+      font-size: 15px;
+      text-align: center;
+      display: inline-block;
+    }
+    
+    .product-two p {
+      font-size: 12px;
+      width: auto;
+      text-align: justify;
+      display: inline-block;
+    }
+    
   }
